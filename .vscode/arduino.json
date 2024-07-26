@@ -1,7 +1,7 @@
 {
-    "configuration": "CDCOnBoot=default,MSCOnBoot=default,DFUOnBoot=default,PartitionScheme=default,DebugLevel=none,EraseFlash=none",
-    "board": "esp32:esp32:lolin_s2_mini",
+    "configuration": "JTAGAdapter=default,PSRAM=disabled,FlashMode=qio,FlashSize=8M,LoopCore=1,EventsCore=1,USBMode=hwcdc,CDCOnBoot=default,MSCOnBoot=default,DFUOnBoot=default,UploadMode=default,PartitionScheme=default_8MB,CPUFreq=240,UploadSpeed=921600,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:XIAO_ESP32S3",
     "port": "/dev/ttyACM0",
     "programmer": "esptool",
-    "sketch": "DevKitty-Update.ino"
+    "sketch": "src/DevKitty-Function-Tester/DevKitty-Function-Tester.ino"
 }
